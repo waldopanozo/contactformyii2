@@ -1,0 +1,82 @@
+/*New Styles*/
+html
+{
+    font-family: 'Roboto Slab', Times, serif;
+}
+h1 {
+    font-weight: normal;
+}
+.right {
+    float:right;
+    width:50%;
+    text-align: left;
+}
+.left{
+    float:left;
+    width:50%;
+    text-align: left;
+}
+#main {
+    width:100%;
+    text-align:center;
+}
+.field {
+    padding: 5px;
+}
+
+.field textarea{
+    width: 100% ;
+    border:1px solid #cccccc;
+    margin-top: 30px;
+}
+.field input[type=text],.field input[type=email]{
+    border:1px solid #cccccc;
+    width: 100%;
+    height: 30px;
+    margin-top: 30px;
+}
+
+.field input[type=text]:invalid , .field input[type=email]:invalid{
+    border:1px solid red;
+}
+
+.field input[type=submit]{
+    color: white;
+    background-color: #0e1d6c;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 17px;
+    /*shadow and border*/
+    border: none;
+    box-shadow: 0px 5px 10px rgba(14, 29, 108, 0.2);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+#send:hover{
+    box-shadow: 5px 8px 25px rgba(0, 0, 0, 0);
+    transform: translateY(-4px);
+}
+label::after {
+    content: "\A";
+    white-space: pre;
+}
+label{
+    padding-bottom: 15px;
+}
+
+.submit {
+    text-align: right;
+}
+
+.title {
+    text-align: left;
+    padding-left: 5px;
+}
+.help-block, .help-block-error{
+
+    color: red;
+    font-size: 0.8em;
+
+}
