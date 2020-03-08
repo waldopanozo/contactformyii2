@@ -14,7 +14,7 @@ $this->title = 'Contact Us';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 
-<?php $form = ActiveForm::begin(['id' => 'contact-form','enableClientValidation'=>false]); ?>
+<?php $form = ActiveForm::begin(['id' => 'contact-form','enableClientValidation'=>true]); ?>
 <div id="main">
     <div class="title">
         <h1>Contact Us</h1>
